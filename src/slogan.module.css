@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'nihongo'; 
+    src: url('./assets/GL-NovantiquaMinamoto.ttf'); 
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.sloganBanner 
+{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 0, 0, 0.644)),url("./assets/kid-goku-drrtt5vmc1ndmwl0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sloganText
+{
+    font-family: nihongo;
+    position: relative;
+    top: 50%;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+html, body
+{
+    overflow-x: hidden;
+    max-width: 100vw;
+}

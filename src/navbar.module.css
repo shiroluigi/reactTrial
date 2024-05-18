@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'englishfont'; /*a name to be used later*/
+    src: url('./assets/SlimeCandy.ttf'); /*URL to font*/
+}
+*
+{
+    font-family: englishfont;
+    font-size: xx-large;
+    margin: 0;
+}
+.nav .items
+{
+    list-style-type: none;
+    display: inherit;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+.nav .items *
+{
+    padding:10px 30px 10px 30px;
+
+}
+.text
+{
+    padding: 10px;
+}
+.nav .items *:hover
+{
+    border-radius: 10px;
+    cursor: crosshair;
+    background:rgb(179, 120, 11);
+}
+.nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    background: linear-gradient(to right, red , orange);
+    padding: 10px;
+}
+
