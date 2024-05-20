@@ -5,7 +5,7 @@ function slogan()
     return(
         <>
             <div className={style.sloganBanner}>
-                <div className={style.sloganText}>
+                <div data-text="未来の平和は戦って勝ちとるんだ！" className={style.sloganText}>
                     未来の平和は戦って勝ちとるんだ！
                 </div>
             </div>

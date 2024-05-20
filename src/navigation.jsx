@@ -1,4 +1,5 @@
 import style from "./navbar.module.css"
+import { Link } from "react-router-dom"
 
 function navigation()
 {
@@ -9,9 +10,9 @@ function navigation()
                 Welcome!!!!
             </div>
             <ul className={style.items}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <Link to="/"><li>Home</li></Link>
+                <Link to="/about"><li>About</li></Link>
+                <Link to="/contact"><li>Contact</li></Link>
             </ul>
         </nav>
         </>

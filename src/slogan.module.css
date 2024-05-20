@@ -23,8 +23,9 @@
     position: relative;
     top: 50%;
     font-size: xx-large;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
+    -webkit-text-stroke: 0.1vw rgb(200, 255, 0);
 }
 html, body
 {

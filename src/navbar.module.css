@@ -15,9 +15,9 @@
     flex-wrap: wrap;
     font-style: italic;
 }
-.nav .items *
+.nav .items li
 {
-    padding:10px 30px 10px 30px;
+    padding:1vh 3vw 1vh 3vw;
 
 }
 .text
@@ -32,11 +32,17 @@
 }
 .nav
 {
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100vw;
+    height: 7vh;
     background: linear-gradient(to right, red , orange);
     padding: 10px;
 }
-
+.items a
+{
+    text-decoration: none;
+    color: black;
+}

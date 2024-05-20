@@ -1,0 +1,28 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("./assets/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.container div 
+{
+    
+    background-image: linear-gradient(rgb(226, 149, 149),rgb(240, 102, 102));
+    text-align: center;
+    border-radius: 30px;
+}
+.container div p
+{
+    padding: 30px;
+}
+.upper
+{
+    margin: 25% 10% 10% 10%;
+}
+.lower
+{
+    margin: 0 10% 5% 10%;
+}

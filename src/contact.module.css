@@ -1,0 +1,32 @@
+.blob
+{
+    background-image: url("./assets/blob-haikei.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    overflow: hidden;
+}
+.blob .content
+{
+    position: fixed;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 5%;
+    border-radius: 30px;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content a
+{
+    text-decoration: none;
+}
+.content a:hover
+{
+    cursor: crosshair;
+}

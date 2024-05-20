@@ -5,8 +5,9 @@ function cardGroups()
 {
     const outerstyle = {
         backgroundImage : `url(${bg})`,
-        backgroundSize: "contain",
-        backgroundAttachment: "fixed"
+        backgroundSize: "cover",
+        backgroundAttachment: "fixed",
+        backgroundRepeat: "norepeat"
     }
     const innerstyle = {
         display : "flex",
